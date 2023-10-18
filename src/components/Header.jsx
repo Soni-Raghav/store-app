@@ -8,22 +8,22 @@ const Header = () => {
   return (
     <>
      <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
+      <Container className=''>
         <Navbar.Brand href="#home">Store App</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+            <Nav.Link href="#link">About Us</Nav.Link>
+            <NavDropdown title="Contact Us" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Mail: @Storeapp.com</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+                Call: 9856665585
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Location:</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Separated link
+                LOGIN
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
