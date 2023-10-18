@@ -5,7 +5,7 @@ function Slider() {
   return (
     <>
 
-    <Carousel>
+    <Carousel className='mt-1'>
       <Carousel.Item>
         <img src='https://picsum.photos/400/300' className="w-auto"alt='random'/>
         <Carousel.Caption>
